@@ -50,15 +50,16 @@ span
     vertical-align: top;
 }
 .box{
-    display: flex;
+    /*display: flex;*/
+    display: box;
 }
 .box .imgBox
 {
-    display: flex;
+
 }
 .box .content{
     padding-left: 20px;
-    display: flex;
+
 }
 .box .content p
 {
