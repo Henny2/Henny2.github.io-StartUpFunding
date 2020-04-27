@@ -41,7 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-span{
+span
+{
     vertical-align: top;
 }
 .box{
@@ -49,6 +50,12 @@ span{
 }
 .box .content{
     padding-left: 20px;
+}
+.box .content p
+{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
 }
 
 .pink{
