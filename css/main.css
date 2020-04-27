@@ -41,3 +41,16 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+span{
+    vertical-align: top;
+}
+.box{
+    display: flex;
+}
+.box .content{
+    padding-left: 20px;
+}
+
+.pink{
+    color: #FF0072;
+}
