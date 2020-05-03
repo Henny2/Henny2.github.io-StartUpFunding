@@ -57,25 +57,15 @@ span
     /*display: flex;*/
     display: box;
 }
-.box .imgBox
-{
-
-}
-.box .content{
+/*.box .content{
     padding-left: 20px;
 
-}
+}*/
 .box .content p
 {
     margin: 0;
-    padding: 10px 0 0;
+    
     text-align: justify;
 
 }
-div.tableauPlaceholder{
-    margin: 100px 100px 100px 100px;
-}
 
-div.observablehq-viewof-year{
-     margin: 30px 30px 30px 30px;
-}
