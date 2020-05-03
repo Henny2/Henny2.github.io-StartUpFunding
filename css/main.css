@@ -75,10 +75,7 @@ span
 div.tableauPlaceholder{
     margin: 100px 100px 100px 100px;
 }
-div.sunburst{
-    margin: 100px 100px 100px 100px;
-}
-div.observablehq-87578761{
-    padding: 100px 100px 100px 100px;
-     margin: 100px 100px 100px 100px;
+
+div.observablehq-viewof-year{
+     margin: 30px 30px 30px 30px;
 }
