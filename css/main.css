@@ -2,6 +2,9 @@
     color: #FF0072;
 }
 
+div {
+    margin: 30px 10px 20px 40px;
+}
 body {
     margin: 60px auto;
     width: 70%;
@@ -68,5 +71,9 @@ span
     text-align: justify;
 
 }
-
-
+.tableauPlaceholder{
+    margin: 100px 100px 100px 100px;
+}
+.sunburst{
+    margin: 100px 100px 100px 100px;
+}
