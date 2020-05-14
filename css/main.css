@@ -44,6 +44,7 @@ p {
     width: 70%;
     margin: 60px auto;
     padding-top: 1em;
+    padding-bottom:  1em;
 
 }
 .intro{
@@ -51,6 +52,6 @@ p {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
-    margin-top: 100px;
+    /*margin-top: 10px;*/
     left: 50%;
 }
