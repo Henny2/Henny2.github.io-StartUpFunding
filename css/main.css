@@ -1,57 +1,56 @@
-/*.pink{
+.pink{
     color: #FF0072;
-}
+} 
 
-
-    
-}
+.purple{
+    color: #6C7CDF;
+} 
 body {
     margin: 60px auto;
     width: 70%;
 }
 
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+
+    
+    
 }
+h1 .top_header{
+    margin-bottom: -0.8em;
+
+}
+
+h2 {
+    font-size: 2em;
+   font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+h3{
+    font-size: 2em;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    /*color: #333;*/
-/*}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-family: 'Nunito Sans', sans-serif;
 }
+.inner_intro{
+    width: 70%;
+    margin: 60px auto;
+    padding-top: 1em;
 
-
-span
-{
-    vertical-align: top;
 }
-*/
-
-.flex-container{
-    width: 80%;
-    min-height: 300px;
-    margin: 0 auto;
-    display: -webkit-flex; /* Safari */     
-    display: flex; /* Standard syntax */
-}
-.flex-container .column{
-    padding: 10px;
-    background: #dbdfe5;
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
-}
-.flex-container .column.bg-alt{
-    background: #b4bac0;
+.intro{
+    background-color: #E5E5E5;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    left: 50%;
 }
