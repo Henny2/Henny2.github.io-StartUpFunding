@@ -31,17 +31,23 @@ h2 {
     font-size: 2em;
    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
+    font-style: normal;
+    font-weight: normal;
 }
 h3{
     font-size: 2em;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
+    font-style: normal;
+    font-weight: normal;
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 .inner_intro{
     width: 70%;
