@@ -55,3 +55,9 @@ p {
     /*margin-top: 10px;*/
     left: 50%;
 }
+.flex-container {
+    display: flex;
+}
+.horizontal {
+    flex-direction:row;
+}
