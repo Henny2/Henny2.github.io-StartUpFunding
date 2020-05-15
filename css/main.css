@@ -46,7 +46,9 @@ p {
     padding-top: 1em;
     padding-bottom:  1em;
 
+
 }
+
 .intro{
     background-color: #E5E5E5;
     width: 100vw;
@@ -55,9 +57,19 @@ p {
     /*margin-top: 10px;*/
     left: 50%;
 }
+
 .flex-container {
     display: flex;
 }
 .horizontal {
     flex-direction:row;
+}
+.vertical {
+    flex-direction:column;
+}
+#sun1 {
+    width: 40em;
+}
+#sun2 {
+    width: 40em;
 }

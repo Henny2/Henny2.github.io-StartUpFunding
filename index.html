@@ -69,7 +69,29 @@
 
     		</div>
 
-    		<div class="observable_1" style="margin-bottom: -6em; margin-left: 1em">
+    	<div class="flex-container horizontal" style="margin-right: -5em; margin-left: -8em">
+    		<div class="flex-container vertical" id="sun1" >
+    			<div id="observablehq-be54fe08" style="width: 40em">
+				  <div class="observablehq-viewof-industry"></div>
+				  <div class="observablehq-breadcrumb"></div>
+				  <div class="observablehq-viewof-sunburst"></div>
+				</div>
+				<script type="module">
+				  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+				  import define from "https://api.observablehq.com/@henny2/embed_left.js?v=3";
+				  (new Runtime).module(define, name => {
+				    if (name === "viewof industry") return Inspector.into("#observablehq-be54fe08 .observablehq-viewof-industry")();
+				    if (name === "breadcrumb") return Inspector.into("#observablehq-be54fe08 .observablehq-breadcrumb")();
+				    if (name === "viewof sunburst") return Inspector.into("#observablehq-be54fe08 .observablehq-viewof-sunburst")();
+				  });
+				</script>
+
+    		</div>
+    		
+
+    		<div class="flex-container vertical" id="sun2">
+    			
+    			<div class="observable_1" style="margin-bottom: -6em; margin-left: 1em; width: 40em">
 				<div id="observablehq-16441a89" style=" text-orientation: center; ">
 				  <div class="observablehq-viewof-industry"></div>
 				  <div class="observablehq-breadcrumb"></div>
@@ -82,10 +104,17 @@
 				    if (name === "viewof industry") return Inspector.into("#observablehq-16441a89 .observablehq-viewof-industry")();
 				    if (name === "breadcrumb") return Inspector.into("#observablehq-16441a89 .observablehq-breadcrumb")();
 				    if (name === "viewof sunburst") return Inspector.into("#observablehq-16441a89 .observablehq-viewof-sunburst")();
-				  });
+				  }); 
 				</script>
-    		</div>
     			
+    		</div>
+
+
+    	</div>
+    </div>
+    		
+
+    		
     			<div class="intro">
     			<div class="inner_intro">
 	    			<p>
