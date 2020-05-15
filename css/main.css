@@ -85,6 +85,9 @@ p.text
 .vertical {
     flex-direction:column;
 }
+.sunburst{
+    justify-content: center;
+}
 #sun1 {
     width: 40em;
 }
