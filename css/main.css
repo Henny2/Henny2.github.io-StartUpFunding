@@ -5,6 +5,9 @@
 .purple{
     color: #6C7CDF;
 } 
+a {
+    text-decoration: none;
+}
 body {
     /*margin: 60px auto;
     width: 70%;*/
@@ -78,6 +81,8 @@ p.text
 
 .flex-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .horizontal {
     flex-direction:row;
