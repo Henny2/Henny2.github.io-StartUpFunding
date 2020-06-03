@@ -11,10 +11,9 @@ a {
     text-decoration: none;
 }
 
-
-body {
-    /*margin: 60px auto;
-    width: 70%;*/
+body{
+    padding:0;
+    margin:0;
 }
 
 
@@ -60,6 +59,23 @@ p {
     
 
 }
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-top: -1em;
+
+}
+ul.tab{
+    
+    width: 70%;
+    margin: 60px auto;
+    margin-top: -1em;
+
+
+}
 p.text
 {   width: 70%;
     margin: 60px auto;
@@ -72,6 +88,15 @@ p.text
     padding-bottom:  1em;
 
 
+}
+
+.intro2{
+    
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    /*margin-top: 10px;*/
+    left: 50%;
 }
 
 .intro{
