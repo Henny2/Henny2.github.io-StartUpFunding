@@ -10,3 +10,6 @@ This Github repo includes the source code for the website that shows the final p
 
 #### about
 - Includes the source code for a second page showing people we credit for the code chunks and data we used. 
+
+#### images
+- Includes images we used for our static visualizations.
